@@ -12,6 +12,7 @@ MAVEN
 Mockito: https://site.mockito.org/
         @Before
         setup(){} Método donde se ponen partes comúnes
+        @After -> debemos usar la instrucción para que JUnit ejecute la función cada vez que termina de hacer un test.
       
 Pasos de los Test:
 1.Preparación de los objetos
