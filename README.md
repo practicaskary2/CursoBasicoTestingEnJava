@@ -30,3 +30,12 @@ Reglas
 Sólo escribirás código de test hasta que falle.
 Sólo escribirás código de producción para pasar el test.
 No escribirás más código de producción del necesario.
+
+Organización de una aplicación->
+Por lo general una aplicación se divide en:
+
+Interfaz: Se encarga de la comunicación con el exterior o un usuario.
+Negocio: Es la lógica de nuestra aplicación.
+Datos: Se encarga de guardar los datos de nuestra aplicación.
+Cada capa se puede comunicar con otra, pero no conoce los detalles de implementación.
+
